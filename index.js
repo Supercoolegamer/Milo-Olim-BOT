@@ -93,7 +93,7 @@ client.on("guildMemberRemove", member => {
 client.on("ready", async () => {
  
     console.log(`${client.user.username} is online.`);
-    client.user.setActivity("Kijkt naar de 12/24 uur stream!", { type: "WATCHING" });
+    client.user.setActivity("De 12/24 uur stream!", { type: "WATCHING" });
  
 });
  
